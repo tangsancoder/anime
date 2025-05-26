@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIMEGAMI - Anime NFT Platform</title>
+    <link rel="stylesheet" href="demo.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo-nav">
+                <h1 class="logo">
+                    <span class="text-blue">ryan</span>
+                    <span class="text-white">Anime</span>
+                </h1>
+                <nav class="main-nav">
+                    <a href="#market" class="nav-link">Marketplace</a>
+                    <a href="#nft" class="nav-link">NFTs</a>
+                    <a href="#collect" class="nav-link">Collections</a>
+                    <a href="#art" class="nav-link">Explore</a>
+                </nav>
+            </div>
+            <button class="btn btn-primary">Connect</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="market">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title">
+                        Collect Extra<br>Ordinary<br>Anime & NFTs.
+                    </h2>
+                    <p class="hero-description">
+                        You can trade top NFTs and create your own collection directly on our anime marketplace.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary">Explore</button>
+                        <button class="btn btn-outline">Create NFT</button>
+                    </div>
+                </div>
+                <div class="hero-cards" id="nft">
+                    <div class="nft-card card-large" style="transform: rotate(-7deg); z-index: 10;">
+                        <div class="card-image">
+                            <img src="demon (2).jpg" alt="Naruto">
+                            <img src="demon (1).jpg" alt="Naruto">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3>Naruto</h3>
+                                <span class="price">0.8 ETH</span>
+                            </div>
+                            <div class="card-creator">
+                                <i class="fas fa-user"></i>
+                                <span>Masashi Kishimoto</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nft-card" style="transform: rotate(-2deg); z-index: 9; margin-top: 10px;">
+                        <div class="card-image">
+                            <img src="shut.jpg" alt="Jujutsu Kaisen">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3>Jujutsu Kaisen</h3>
+                                <span class="price">0.6 ETH</span>
+                            </div>
+                            <div class="card-creator">
+                                <i class="fas fa-user"></i>
+                                <span>Gege Akutami</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nft-card" style="transform: rotate(3deg); z-index: 8; margin-top: 20px;">
+                        <div class="card-image">
+                            <img src="demon (4).jpg" alt="Spy x Family">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3>Spy x Family</h3>
+                                <span class="price">0.5 ETH</span>
+                            </div>
+                            <div class="card-creator">
+                                <i class="fas fa-user"></i>
+                                <span>Tatsuya Endo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nft-card" style="transform: rotate(8deg); z-index: 7; margin-top: 30px;">
+                        <div class="card-image">
+                            <img src="shut.jpg" alt="Dragon Ball">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3>Dragon Ball</h3>
+                                <span class="price">1.2 ETH</span>
+                            </div>
+                            <div class="card-creator">
+                                <i class="fas fa-user"></i>
+                                <span>Akira Toriyama</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="artist-community">
+                <div class="artist-avatars">
+                    <div class="avatar"></div>
+                    <div class="avatar"></div>
+                    <div class="avatar"></div>
+                    <div class="avatar"></div>
+                    <div class="avatar"></div>
+                </div>
+                <span class="artist-count">+2.5k NFT Artists</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Releases Section -->
+    <section class="upcoming-releases" id="collect">
+        <div class="container">
+            <div class="section-header">
+                <span class="date">15 Nov 2023</span>
+                <h2 class="section-title">Virtual Anime Collectables</h2>
+            </div>
+            
+            <div class="releases-content">
+                <div class="featured-image">
+                    <div class="image-container">
+                        <img src="shut.jpg" alt="Featured Anime NFT">
+                    </div>
+                </div>
+                
+                <div class="release-details">
+                    <div class="countdown">
+                        <h3>Next Releases in</h3>
+                        <div class="timer">
+                            <div class="time-block">
+                                <div class="time" id="hours">07</div>
+                                <div class="label">hrs</div>
+                            </div>
+                            <div class="time-block">
+                                <div class="time" id="minutes">13</div>
+                                <div class="label">min</div>
+                            </div>
+                            <div class="time-block">
+                                <div class="time" id="seconds">56</div>
+                                <div class="label">sec</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="creator-info">
+                        <div class="creator">
+                            <div class="creator-avatar"></div>
+                            <div class="creator-details">
+                                <div class="label">Creator</div>
+                                <div class="name">@nimegami</div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-primary">View All Upcoming</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Artworks Section -->
+    <section class="top-artworks" id="art">
+        <div class="container">
+            <h2 class="section-title">Top Artworks</h2>
+            
+            <div class="artwork-grid">
+                <div class="artwork-card">
+                    <div class="card-image">
+                        <img src="demon (6).jpg" alt="Naruto">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>Naruto</h3>
+                            <span class="price">0.8 ETH</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="creator">
+                                <i class="fas fa-user"></i>
+                                <span>Masashi Kishimoto</span>
+                            </div>
+                            <div class="likes">
+                                <i class="fas fa-heart"></i>
+                                <span>87</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="artwork-card">
+                    <div class="card-image">
+                        <img src="demon (4).jpg" alt="Jujutsu Kaisen">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>Gojo</h3>
+                            <span class="price">0.6 ETH</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="creator">
+                                <i class="fas fa-user"></i>
+                                <span>Gege Akutami</span>
+                            </div>
+                            <div class="likes">
+                                <i class="fas fa-heart"></i>
+                                <span>65</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="artwork-card">
+                    <div class="card-image">
+                        <img src="demon (3).jpg" alt="Spy x Family">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>Spy x Family</h3>
+                            <span class="price">0.5 ETH</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="creator">
+                                <i class="fas fa-user"></i>
+                                <span>Tatsuya Endo</span>
+                            </div>
+                            <div class="likes">
+                                <i class="fas fa-heart"></i>
+                                <span>92</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="demo.js"></script>
+</body>
+</html>
